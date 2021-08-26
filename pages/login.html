@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="..\css\style.css">
-    <title>Películas</title>
+    <title>Login</title>
 </head>
 <body>
 
@@ -35,32 +35,28 @@
 
 
 
-    <table > 
-        <tr>
-            <td>
-                <a href="thekillers1946.html"><img class="cajita none" src="..\images\1 THE KILLERS [1946].jpg">
-                </a>
-            </td>
-            <td>
-                <img class="cajita none" src="..\images\6 DETOUR [1945].jpg">
-            </td>
+    <nav class="pruebas">
+        <ul>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="registro.html">Registro</a></li>
+            <li><a href="contactenos.html">Contáctenos</a></li>
+        </ul>
+    </nav>
     
-        </tr>
-        <tr>
-            <td>
-                <img class="cajita none" src="..\images\11 THE MALTESE FALCON [1941].jpg">
-                </a>
-            </td>
-            <td>
-                <img class="cajita none" src="..\images\15 THE BIG HEAT [1953].jpg">
-            </td>
-    
-        </tr>
-    
-    
-    </table>
+    <section>
+        Por favor, loguéese...<br><br>
 
-    
+        <form action="https://www.w3schools.com/action_page.php" method="POST" target="__blank" >
+            <label for="userName">Ingrese su usuario: </label>
+            <input type="text" id="userNameID" name="userName" required maxlength="8">
+            <br>
+            <label for="password">Ingrese su contraseña: </label>
+            <input type="password" id="passwordID" name="password" required maxlength="15">
+            <br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
 
     </div>
 
